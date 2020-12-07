@@ -431,7 +431,7 @@ def get_enrollment_df(all_files_dict):
     return enrollment_df
 
 all_files_dict = read_all_files()
-# district_df = get_districts_df(all_files_dict)
+district_df = get_districts_df(all_files_dict)
 # revenue_df = get_revenue_df(all_files_dict)
 # program_df = get_program_df(all_files_dict)
 # function_df = get_function_df(all_files_dict)
